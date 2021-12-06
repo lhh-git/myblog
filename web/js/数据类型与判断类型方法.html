@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>简单类型（原始类型）</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/myblog/assets/css/0.styles.6664e6bd.css" as="style"><link rel="preload" href="/myblog/assets/js/app.7b30ed11.js" as="script"><link rel="preload" href="/myblog/assets/js/2.8a0b6051.js" as="script"><link rel="preload" href="/myblog/assets/js/22.4aaf0981.js" as="script"><link rel="prefetch" href="/myblog/assets/js/10.b7749248.js"><link rel="prefetch" href="/myblog/assets/js/11.0864f7be.js"><link rel="prefetch" href="/myblog/assets/js/12.d533184f.js"><link rel="prefetch" href="/myblog/assets/js/13.4d178b47.js"><link rel="prefetch" href="/myblog/assets/js/14.66375089.js"><link rel="prefetch" href="/myblog/assets/js/15.5702cf89.js"><link rel="prefetch" href="/myblog/assets/js/16.79026f40.js"><link rel="prefetch" href="/myblog/assets/js/17.0370117a.js"><link rel="prefetch" href="/myblog/assets/js/18.9aa2e1f2.js"><link rel="prefetch" href="/myblog/assets/js/19.fb8b8cd2.js"><link rel="prefetch" href="/myblog/assets/js/20.b982fda0.js"><link rel="prefetch" href="/myblog/assets/js/21.288a842f.js"><link rel="prefetch" href="/myblog/assets/js/23.124f6479.js"><link rel="prefetch" href="/myblog/assets/js/24.24d655f1.js"><link rel="prefetch" href="/myblog/assets/js/25.d33425dd.js"><link rel="prefetch" href="/myblog/assets/js/3.bb6241e9.js"><link rel="prefetch" href="/myblog/assets/js/4.13c9aa92.js"><link rel="prefetch" href="/myblog/assets/js/5.4a188d16.js"><link rel="prefetch" href="/myblog/assets/js/6.5b93a592.js"><link rel="prefetch" href="/myblog/assets/js/7.f3e83c21.js"><link rel="prefetch" href="/myblog/assets/js/8.61d0d549.js"><link rel="prefetch" href="/myblog/assets/js/9.c9c11732.js">
+    <link rel="stylesheet" href="/myblog/assets/css/0.styles.6664e6bd.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/myblog/" class="home-link router-link-active"><img src="/myblog/images/logo.png" alt="" class="logo"> <!----></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/myblog/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/myblog/web/" class="nav-link router-link-active">
+  前端
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="更多" class="dropdown-title"><span class="title">更多</span> <span class="arrow down"></span></button> <button type="button" aria-label="更多" class="mobile-dropdown-title"><span class="title">更多</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/myblog/more/" class="nav-link">
+  More
+</a></li><li class="dropdown-item"><!----> <a href="https://www.w3school.com.cn/js/js_arrays.asp" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  W3school
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="人类早期求偶" class="dropdown-title"><span class="title">人类早期求偶</span> <span class="arrow down"></span></button> <button type="button" aria-label="人类早期求偶" class="mobile-dropdown-title"><span class="title">人类早期求偶</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://lhh-git.github.io/myblog/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  12+
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="http://www.yanxy.top" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  17K+
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://24kcs.github.io/vue3_study/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  20K+
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="高级" class="dropdown-title"><span class="title">高级</span> <span class="arrow down"></span></button> <button type="button" aria-label="高级" class="mobile-dropdown-title"><span class="title">高级</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          算法
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/myblog/web/js/.html" class="nav-link">
+  冒泡
+</a></li><li class="dropdown-subitem"><a href="/myblog/web/js/.html" class="nav-link">
+  快速
+</a></li></ul></li><li class="dropdown-item"><h4>
+          设计模式
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/myblog/web/js/.html" class="nav-link">
+  工厂
+</a></li><li class="dropdown-subitem"><a href="/myblog/web/js/.html" class="nav-link">
+  单例
+</a></li></ul></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/myblog/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/myblog/web/" class="nav-link router-link-active">
+  前端
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="更多" class="dropdown-title"><span class="title">更多</span> <span class="arrow down"></span></button> <button type="button" aria-label="更多" class="mobile-dropdown-title"><span class="title">更多</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/myblog/more/" class="nav-link">
+  More
+</a></li><li class="dropdown-item"><!----> <a href="https://www.w3school.com.cn/js/js_arrays.asp" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  W3school
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="人类早期求偶" class="dropdown-title"><span class="title">人类早期求偶</span> <span class="arrow down"></span></button> <button type="button" aria-label="人类早期求偶" class="mobile-dropdown-title"><span class="title">人类早期求偶</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://lhh-git.github.io/myblog/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  12+
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="http://www.yanxy.top" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  17K+
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://24kcs.github.io/vue3_study/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  20K+
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="高级" class="dropdown-title"><span class="title">高级</span> <span class="arrow down"></span></button> <button type="button" aria-label="高级" class="mobile-dropdown-title"><span class="title">高级</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          算法
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/myblog/web/js/.html" class="nav-link">
+  冒泡
+</a></li><li class="dropdown-subitem"><a href="/myblog/web/js/.html" class="nav-link">
+  快速
+</a></li></ul></li><li class="dropdown-item"><h4>
+          设计模式
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/myblog/web/js/.html" class="nav-link">
+  工厂
+</a></li><li class="dropdown-subitem"><a href="/myblog/web/js/.html" class="nav-link">
+  单例
+</a></li></ul></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>前端</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading open"><span>JS</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/myblog/web/js/数据类型与判断类型方法.html" class="active sidebar-link">数据类型与判断类型方法</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/myblog/web/js/数据类型与判断类型方法.html#简单类型-原始类型" class="sidebar-link">简单类型（原始类型）</a></li><li class="sidebar-sub-header"><a href="/myblog/web/js/数据类型与判断类型方法.html#复杂类型-引用类型" class="sidebar-link">复杂类型（引用类型）</a></li><li class="sidebar-sub-header"><a href="/myblog/web/js/数据类型与判断类型方法.html#undefined-与-null-的区别" class="sidebar-link">Undefined 与 Null 的区别</a></li><li class="sidebar-sub-header"><a href="/myblog/web/js/数据类型与判断类型方法.html#检测数组类型的方法" class="sidebar-link">检测数组类型的方法</a></li><li class="sidebar-sub-header"><a href="/myblog/web/js/数据类型与判断类型方法.html#tostring-方法检查类型" class="sidebar-link">tostring()方法检查类型</a></li><li class="sidebar-sub-header"><a href="/myblog/web/js/数据类型与判断类型方法.html#封装一个方法判断数组和对象" class="sidebar-link">封装一个方法判断数组和对象</a></li></ul></li><li><a href="/myblog/web/js/字符串.html" class="sidebar-link">字符串</a></li><li><a href="/myblog/web/js/数组.html" class="sidebar-link">数组</a></li><li><a href="/myblog/web/js/原型链.html" class="sidebar-link">原型链</a></li><li><a href="/myblog/web/js/作用域链与原型链的区别.html" class="sidebar-link">作用域链与原型链的区别</a></li><li><a href="/myblog/web/js/this指向问题.html" class="sidebar-link">This指向问题</a></li><li><a href="/myblog/web/js/bind,call,apply区别.html" class="sidebar-link">bind,call,apply区别</a></li><li><a href="/myblog/web/js/promise.html" class="sidebar-link">Promise</a></li><li><a href="/myblog/web/js/es6.html" class="sidebar-link">Es6</a></li><li><a href="/myblog/web/js/正则.html" class="sidebar-link">正则</a></li></ul></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>CSS</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>HTML</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>实践问题</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>GitHub</span> <span class="arrow right"></span></p> <!----></section></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="简单类型-原始类型"><a href="#简单类型-原始类型" class="header-anchor">#</a> 简单类型（原始类型）</h2> <div class="language- extra-class"><pre class="language-text"><code>原始数据
+原始数据值是一种没有额外属性和方法的单一简单数据值。
+
+typeof 运算符可返回以下原始类型之一：
+string
+number
+boolean
+undefined
+
+typeof &quot;Bill&quot;              // 返回 &quot;string&quot;
+typeof 3.14                // 返回 &quot;number&quot;
+typeof true                // 返回 &quot;boolean&quot;
+typeof false               // 返回 &quot;boolean&quot;
+typeof x                   // 返回 &quot;undefined&quot; (假如 x 没有值)
+</code></pre></div><h3 id="字符串值"><a href="#字符串值" class="header-anchor">#</a> 字符串值</h3> <p>字符串（或文本字符串）是一串字符（比如 &quot;Bill Gates&quot;）。
+字符串被引号包围。您可使用单引号或双引号：</p> <div class="language- extra-class"><pre class="language-text"><code>var carName = &quot;Porsche 911&quot;;   // 使用双引号
+var carName = 'Porsche 911';   // 使用单引号
+</code></pre></div><p>您可以在字符串内使用引号，只要这些引号与包围字符串的引号不匹配：</p> <div class="language- extra-class"><pre class="language-text"><code>var answer = &quot;It's alright&quot;;           // 双引号内的单引号
+var answer = &quot;He is called 'Bill'&quot;;    // 双引号内的单引号
+var answer = 'He is called &quot;Bill&quot;';    // 单引号内的双引号
+</code></pre></div><p>空值与 undefined 不是一回事。
+空的字符串变量既有值也有类型</p> <div class="language- extra-class"><pre class="language-text"><code>var car = &quot;&quot;;                // 值是 &quot;&quot;，类型是 &quot;string&quot;
+</code></pre></div><h3 id="数值"><a href="#数值" class="header-anchor">#</a> 数值</h3> <p>JavaScript 只有一种数值类型。
+写数值时用不用小数点均可：</p> <div class="language- extra-class"><pre class="language-text"><code>var x1 = 34.00;     // 带小数点
+var x2 = 34;        // 不带小数点
+</code></pre></div><h3 id="布尔值"><a href="#布尔值" class="header-anchor">#</a> 布尔值</h3> <p>布尔值只有两个值：true 或 false。</p> <div class="language- extra-class"><pre class="language-text"><code>var x = true;
+var y = false;
+</code></pre></div><h3 id="undefined"><a href="#undefined" class="header-anchor">#</a> Undefined</h3> <p>在 JavaScript 中，没有值的变量，其值是 undefined。typeof 也返回 undefined。
+您也可以通过设置值为 undefined 清空对象</p> <div class="language- extra-class"><pre class="language-text"><code>var person;                  // 值是 undefined，类型是 undefined
+</code></pre></div><h2 id="复杂类型-引用类型"><a href="#复杂类型-引用类型" class="header-anchor">#</a> 复杂类型（引用类型）</h2> <div class="language- extra-class"><pre class="language-text"><code>复杂数据
+typeof 运算符可返回以下两种类型之一：
+function
+object
+typeof 运算符把对象、数组或 null 返回 object。
+typeof 运算符不会把函数返回 object。
+
+typeof {name:'Bill', age:62} // 返回 &quot;object&quot;
+typeof [1,2,3,4]             // 返回 &quot;object&quot; (并非 &quot;array&quot;，参见下面的注释)
+typeof null                  // 返回 &quot;object&quot;
+typeof function myFunc(){}   // 返回 &quot;function&quot;
+</code></pre></div><h3 id="对象"><a href="#对象" class="header-anchor">#</a> 对象</h3> <p>JavaScript 对象用花括号来书写。
+对象属性是 name:value 对，由逗号分隔。</p> <div class="language- extra-class"><pre class="language-text"><code>var person = {firstName:&quot;Bill&quot;, lastName:&quot;Gates&quot;, age:62, eyeColor:&quot;blue&quot;};
+</code></pre></div><h3 id="null"><a href="#null" class="header-anchor">#</a> Null</h3> <p>在 JavaScript 中，null 是 &quot;nothing&quot;。它被看做不存在的事物。
+不幸的是，在 JavaScript 中，null 的数据类型是对象。
+您可以把 null 在 JavaScript 中是对象理解为一个 bug。它本应是 null。
+您可以通过设置值为 null 清空对象：</p> <div class="language- extra-class"><pre class="language-text"><code>var person = null;           // 值是 null，但是类型仍然是对象
+</code></pre></div><h3 id="数组"><a href="#数组" class="header-anchor">#</a> 数组</h3> <p>JavaScript 数组用方括号书写。
+数组的项目由逗号分隔。</p> <div class="language- extra-class"><pre class="language-text"><code>var cars = [&quot;Porsche&quot;, &quot;Volvo&quot;, &quot;BMW&quot;];
+</code></pre></div><h2 id="undefined-与-null-的区别"><a href="#undefined-与-null-的区别" class="header-anchor">#</a> Undefined 与 Null 的区别</h2> <p>Undefined 与 null 的值相等，但类型不相等：</p> <div class="language- extra-class"><pre class="language-text"><code>typeof undefined              // undefined
+typeof null                   // object
+null === undefined            // false
+null == undefined             // true
+</code></pre></div><h2 id="检测数组类型的方法"><a href="#检测数组类型的方法" class="header-anchor">#</a> 检测数组类型的方法</h2> <h3 id="instanceof-操作符"><a href="#instanceof-操作符" class="header-anchor">#</a> instanceof  操作符</h3> <div class="language- extra-class"><pre class="language-text"><code>const arr = [1, 2, 3]
+arr instanceof Array          // true
+</code></pre></div><h3 id="对象的-constructor-属性"><a href="#对象的-constructor-属性" class="header-anchor">#</a> 对象的 constructor 属性</h3> <div class="language- extra-class"><pre class="language-text"><code>const arr = [1, 2, 3]
+arr constructor Array         // true
+</code></pre></div><h3 id="array-isarray-检验值是否为数组"><a href="#array-isarray-检验值是否为数组" class="header-anchor">#</a> Array.isArray( ) 检验值是否为数组</h3> <div class="language- extra-class"><pre class="language-text"><code>const arr = [1, 2, 3]
+Array.isArray(arr)            // true
+</code></pre></div><h2 id="tostring-方法检查类型"><a href="#tostring-方法检查类型" class="header-anchor">#</a> tostring()方法检查类型</h2> <div class="language- extra-class"><pre class="language-text"><code>const arr = [1, 2, 3]
+const obj = {
+  name: 'jack'
+}
+function fn(name,age){
+  this.name = name;
+  this.age = age;
+}
+
+Object.prototype.toString.call(arr)    // &quot;[object Array]&quot;
+Object.prototype.toString.call(obj)    // &quot;[object Object]&quot;
+Object.prototype.toString.call(fn)     // &quot;[object Function]&quot;
+</code></pre></div><h2 id="封装一个方法判断数组和对象"><a href="#封装一个方法判断数组和对象" class="header-anchor">#</a> 封装一个方法判断数组和对象</h2> <div class="language- extra-class"><pre class="language-text"><code>var _toString = Object.prototype.toString;
+function toRawType (value) {
+  return _toString.call(value).slice(8, -1)
+}
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/myblog/web/js/字符串.html">
+        字符串
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/myblog/assets/js/app.7b30ed11.js" defer></script><script src="/myblog/assets/js/2.8a0b6051.js" defer></script><script src="/myblog/assets/js/22.4aaf0981.js" defer></script>
+  </body>
+</html>
